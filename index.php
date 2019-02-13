@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -12,10 +13,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        //Added documentation block
         // put your code here
         $pattern = '/Harris/';
 
-            $author = 'Ray Harris';
+            $author = 'Roy Harris'; // Changed Ray to Roy
             $editor = 'Joel Murach';
 
             $author_match = preg_match($pattern, $author);
